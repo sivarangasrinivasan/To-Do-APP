@@ -1,0 +1,66 @@
+body{
+    margin:0;
+    padding:0;
+background:linear-gradient(rgb(202, 202, 83),rgb(224, 92, 92),rgb(106, 106, 234));
+}
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.Ecom-prod{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    padding: 20px;
+    align-items: center;
+    border: 2px solid;
+    border-radius: 10px;
+}
+img{
+    border-radius: 10px;
+    max-height: 225px; 
+    max-width:100%;
+}
+h3{
+    color: white;
+    margin-top: 330px;
+    justify-content: space-between;
+    margin-left: -160px;
+}
+p{
+    color: white;
+    object-fit: contain;
+    margin-right: 70px;
+    margin-top: 330px;
+}
+.cart{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    object-fit: contain;
+    margin-top: 330px;
+    margin-left: -60px;
+}
+button:hover{
+    background-color:rgb(18, 222, 62);
+}
+.Ecom-cart{
+    text-align: center;
+}
+h2{
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+}
+li{
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 900;
+}
+button{
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+}
